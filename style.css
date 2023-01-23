@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(220, 216, 216);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    /* display: none; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav a{
+    text-transform: capitalize;
+    color: rgb(25, 25, 25);
+    padding-left: 25px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: royalblue;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(imgs/main-sec.png);
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.main h2{
+    color: pink;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    color: rgb(36, 72, 182);
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-top : 10;
+}
+.main h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: pink;
+    font-weight: 600;
+}
+
+.proj-btn{
+    text-transform: capitalize;
+    color: pink;
+    background-color: royalblue;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: 0.6s ease;
+}
+.proj-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(45, 74, 159);
+}
+
+.social a{
+    color: #fff;
+    padding-right: 30px;
+    font-size: 2em;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: royalblue;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.contant {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 30px rgba(1, 1, 1, 25%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.6s ease;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: royalblue;
+    font-size: 7.5em;
+}
+.icon img{
+    width: 60%;
+}
+
+
+.info h3{
+    color: royalblue;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    text-transform: capitalize; 
+}
+.dark{
+    color: rgb(54, 84, 175);
+}
+
+.projects{
+    background: url(imgs/proj-sec.png) center ;
+    background-size: cover;
+}
+.projects .contant{
+    margin-top: 20px;
+}
+
+.proj-card{
+    /* display: inline-block; */
+    background-color: pink;
+    border: 2px solid rosybrown;
+    border-radius: 30px;
+    min-height: 10em;
+    width: 23em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.6s ease;
+}
+.proj-card:hover{
+    transform: scale(1.1);
+}
+.proj-card:hover img{
+    opacity: 0.9;
+}
+
+.proj-card img{
+    width: 100%;
+    transition: 0.6s ease;
+}
+.proj-info{
+    padding: 1em;
+}
+ .proj-info p{
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+}
+.proj-info div{
+    display: inline;
+}
+.proj-info div {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1em;
+    text-justify: left;
+}
+.contact.cards .icon{
+    font-size: 4.5em;
+}
+.contact.cards .info p{
+    font-size: 1.5em;
+}
+.contact.cards .info h3{
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #000;
+}
+.edu
+{
+    background: url(imgs/edu-sec.png) center;
+    background-size: cover
+}
+.edu h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.edu h2 span{
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 500;
+}
+footer{
+    background-color: #3e4752;
+    color: pink;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: #fff;
+}
+.f-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.f-title{
+    color: royalblue;
+}
+.fsocial a{
+    font-size:1.5em;
+    color: #fff;
+    padding-right: 12px;
+}
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    nav a{
+        padding-left: 10px;
+    }
+    .title,.f-title{
+        font-size: 1.7em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 0.9em;
+    }
+    .main h3{
+        font-size: 1em;
+    }
+    .contant{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main h2{
+        font-size: 0.7em;
+    }
+    .main h3{
+        font-size: 0.9em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size:10px ;
+    }
+}
